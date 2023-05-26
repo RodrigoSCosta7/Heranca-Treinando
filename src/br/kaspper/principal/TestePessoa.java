@@ -1,17 +1,17 @@
 package br.kaspper.principal;
 
 import br.kaspper.entidades.Mei;
-import br.kaspper.entidades.Pessoa;
 import br.kaspper.entidades.PessoaFisica;
 import br.kaspper.entidades.PessoaJuridica;
 
 public class TestePessoa {
     public static void main(String[] args) {
-        // Instanciando objetos
-        Pessoa pessoa = new Pessoa();
-        pessoa.setNome("Rodrigo");
-        pessoa.setEndereco("Edmundo Scanapieco");
-        System.out.println("Pessoa " + pessoa.getNome() + " Endereço " + pessoa.getEndereco());
+        // Instanciando objetos Classe pessoa não pode ser instanciada
+        // Pessoa pessoa = new Pessoa();
+        // pessoa.setNome("Rodrigo");
+        // pessoa.setEndereco("Edmundo Scanapieco");
+        // System.out.println("Pessoa " + pessoa.getNome() + " Endereço " +
+        // pessoa.getEndereco());
 
         PessoaFisica pessoaFisica = new PessoaFisica();
         pessoaFisica.setNome("Willian Rodrigues");
