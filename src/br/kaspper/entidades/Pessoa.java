@@ -2,7 +2,7 @@ package br.kaspper.entidades;
 
 // Utilizando o abstract - ela n pode ser instanciada nessa caso ela fica somente como modelo para ser utilizado em outras classes
 
-public abstract class Pessoa {
+public abstract class Pessoa implements IPessoa {
     private String nome;
     private String endereco;
 

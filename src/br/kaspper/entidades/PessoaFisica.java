@@ -11,4 +11,13 @@ public class PessoaFisica extends Pessoa {
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
+    @Override
+    public void exibirDados() {
+       System.out.println("Pessoa Fisica");
+
+    }
+   
+    
+
+    
 }
